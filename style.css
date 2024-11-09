@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    padding: 7px;
+    color: whitesmoke;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 800;
+    background-color: rgb(14, 13, 13);
+}
+
+b{
+    color: rgb(248, 23, 237);
+}
+
+#selection{
+    font-family: "Afacad Flux", sans-serif;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 67px 0 21px 63px;
+}
+
+#menulist{
+    display: flex;
+    gap: 40px;
+    padding: 20px 20px 40px 20px;
+    margin: 0 0 0 45px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Afacad Flux", sans-serif;
+    list-style-type: none;
+}
+
+#list{
+    text-decoration: none;
+    color: white;
+}
+
+#list1:hover{
+    background-color: rgba(17, 0, 255, 0.959);
+}
+
+#list2:hover{
+    background-color: rgba(255, 0, 13, 0.959);
+}
+
+#list3:hover{
+    background-color: rgba(214, 175, 3, 0.959);
+}
+
+button{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 11px;
+    width: 150px;
+    border: 1px solid rgb(250, 213, 3);
+    border-radius: 3px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+section{
+    width: 75%;
+    font-family: "Afacad Flux", sans-serif;
+    padding: 15px 0 21px 63px;
+}
+
+.title{
+    color: rgb(23, 39, 252);
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+
+#same{
+    color: rgb(255, 0, 0);
+}
+
+span{
+    color: rgb(28, 168, 168);
+}
+
+
+#nostyle{
+    color: rgb(35, 165, 10);
+}
+
+.description{
+    font-weight: 500;
+    padding: 0 0 30px 0;
+    color: rgb(236, 226, 226);
+}
+
+article{
+    padding: 10px;
+    margin-right: 63px;
+    border: 2px solid rgba(206, 71, 9, 0.863);
+    border-radius: 3px;
+    width: 300px;
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500;
+}
+
+#bottom{
+    border: 2px rgba(79, 3, 255, 0.973) dashed;
+    border-radius: 3px;
+    color: rgb(236, 226, 226);
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500;
+    margin: 6px 63px 21px 63px;
+    padding: 15px;
+}

@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(43,195,34);
+    background: linear-gradient(0deg, rgba(43,195,34,1) 1%, rgba(38,193,194,1) 21%, rgba(34,193,195,1) 56%, rgba(253,187,45,1) 100%);
+    font-family: "Faculty Glyphic", "sans-serif";
+}
+
+b{
+    color: rgb(255, 255, 255);
+}
+
+header{
+    margin-left: 20px;
+    padding: 20px 0 0 11px;
+    font-family: "Faculty Glyphic", "sans-serif";
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#selection{
+    text-align: center;
+    font-family: "Faculty Glyphic", "sans-serif";
+    font-size: 50px;
+    padding: 125px 0 21px 63px;
+}
+
+#menubar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#menulist{
+    display: flex;
+    gap: 40px;
+    padding: 20px 20px 40px 20px;
+    margin: 0 0 0 45px;
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+#list{
+    text-decoration: none;
+    color: white;
+}
+
+#list1:hover{
+    background-color:rgba(214, 175, 3, 0.959);
+}
+
+#list2:hover{
+    background-color: rgba(19, 173, 179, 0.959);
+}
+
+#list3:hover{
+    background-color: rgba(73, 182, 30, 0.959);
+}
+
+button{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 11px;
+    width: 150px;
+    border: 1px solid rgb(7, 236, 206);
+    box-shadow: rgba(182, 158, 22, 0.438) 0px 8px 24px;
+    border-radius: 3px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+section{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 3px;
+    margin: 63px 20px 63px 63px;
+    width: 60%;
+    padding: 15px 10px 21px 10px;
+}
+
+.title{
+    font-weight: 700;
+    color: rgb(0, 77, 13);
+    padding: 0 0 20px 0;
+}
+
+#same{
+    color: rgb(0, 77, 13);
+}
+
+span{
+    color: rgb(28, 168, 168);
+}
+
+
+#nostyle{
+    color: rgb(0, 77, 13);
+}
+
+.description{
+    font-weight: 500;
+    padding: 0 0 30px 0;
+    color: rgb(1, 0, 73);
+}
+
+article{
+    padding: 80px 15px 15px 15px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 3px;
+    width: 500px;
+    height: 325px;
+    text-align: center;
+    position: absolute;
+    top: 571px;
+    right: 63px;
+}
+
+#bottom{
+    border: 2px rgba(12, 73, 4, 0.973) dotted;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: rgb(8, 8, 8);
+    margin: 40px 63px 21px 63px;
+    padding: 15px;
+}
